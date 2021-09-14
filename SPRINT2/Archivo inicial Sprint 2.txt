@@ -1,0 +1,15 @@
+Realizar los requerimientos funcionales y no funcionales en el programa libre project 
+(como se explicó en clase) pueden apoyarse en las siguientes páginas. 
+ 
+• http://www.pmoinformatica.com/2017/02/requerimientos-funcionales-
+ejemplos.html 
+ 
+• http://www.pmoinformatica.com/2015/05/requerimientos-no-funcionales-
+ejemplos.html
+
+Nuestros modulos son:
+
+Gestion de clientes
+Gestion de Reservas
+Gestion de Pagos
+Estadisticas
