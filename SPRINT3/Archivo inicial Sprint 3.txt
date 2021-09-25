@@ -1,0 +1,10 @@
+Cada integrante debe realizar el Diagrama de casos de uso general y específico para cada 
+una de las funcionalidades asignadas en el Sprint 2, teniendo en cuenta los requerimientos 
+funcionales y no funcionales que se hicieron. Utilizar el programa día para ello. 
+
+Nuestros modulos son:
+
+Gestion de clientes
+Gestion de Reservas
+Gestion de Pagos
+Estadisticas
