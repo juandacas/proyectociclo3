@@ -1,0 +1,59 @@
+
+<body>
+	<div class="body"></div>
+	<div class="grad"></div>
+
+  <div class="contact_form">
+
+  <div class="formulario">      
+    
+  <h1>Registro de nuevos usuarios</h1>
+  
+  <form action="" class="register">      
+  <p>
+    <label for="nombres" class="colocar_nombres">Nombres
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="text" Name="introducir_nombres" id="nombres" required="obligatorio" placeholder="Escriba sus nombres">
+  </p>
+
+  <p>
+    <label for="apellidos" class="colocar_apellido">Apellidos
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="text" Name="introducir_apellidos" id="apellidos" required="obligatorio" placeholder="Escriba sus apellidos">
+    </p>
+            
+  <p>
+    <label for="e-mail" class="colocar_e-mail">E-mail
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="email" Name="introducir_e-mail" id="e-mail" placeholder="Escriba su e-mail">
+    </p>    
+              
+  <p>
+    <label for="telefono" class="colocar_telefono">Teléfono
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="tel" Name="introducir_telefono" id="telefono" placeholder="Escriba su teléfono">
+  </p>    
+              
+  <p>
+    <label for="contraseña" class="colocar_contraseña">Contraseña
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="password" Name="introducir_contraseña" id="contraseña" required="obligatorio" placeholder="Escriba una contraseña">
+  </p>                     
+              
+  <button type="submit" name="enviar_formulario" id="enviar"><p>Registrarse</p></button>
+
+  <p class="aviso">
+    <span class="obligatorio"> * </span>Los campos son obligatorios.
+  </p>                 
+  </form>
+
+ 	<h2>¿Ya tiene una cuenta? <a routerLink="/login" routerLinkActive="active"> Iniciar sesión.</a></h2>
+  
+  </div>  
+  </div>
+</body>

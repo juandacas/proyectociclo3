@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(https://images.freejpg.com.ar/900/0904/wood-dock-lake-water-forest-trees-outdoors-F100018992.jpg);
+	background-size: cover;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.contact_form{ 
+  width: 480px; 
+  height: 840px;
+  margin: auto;
+  border-radius: 10px;  
+  padding-top: 120px;
+  padding-bottom: 20px;  
+  padding-left: 80px; 
+}
+
+input{
+  background: transparent;
+  width: 300px;
+	height: 30px;
+  border: 1px solid rgba(129, 125, 125, 0.6);
+	border-radius: 2px;
+	color: rgb(0, 0, 0);
+  border-width: 1px; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+label{
+  display: block; 
+  float: center; 
+  font-family: 'Exo', sans-serif;
+}
+
+button{
+  width: 300px;  
+  height: 30px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase; 
+  background-color: #ecbe8a;; 
+  border-color: #ecbe8a; 
+  border-style: solid; 
+  border-radius: 10px;  
+  cursor: pointer;
+  font-family: 'Exo', sans-serif;
+}
+
+button p{
+  color: #000000; 
+}
+
+span{
+  color: #ecbe8a; 
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.aviso{
+  font-size: 13px;  
+  color: #000000;
+  font-family: 'Exo', sans-serif;  
+}
+
+h1{
+  position: absolute;
+	top: calc(10% - 35px);
+	left: calc(54% - 255px);
+  font-size: 30px;  
+  padding-bottom: 20px;
+  font-family: 'Exo', sans-serif; 
+  color: #bfdb58;
+}
+
+h2{
+  position: absolute;
+	top: calc(115% - 35px);
+	left: calc(59% - 255px);
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+p{
+  font-size: 14px; 
+  color: #000000; 
+}
+
+::-webkit-input-placeholder {
+ color: rgba(51, 51, 51, 0.6);
+ font-weight: 500;
+}
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #ecbe8a;
+}
+
+
+
